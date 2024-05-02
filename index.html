@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Welcome</h1>
+    <h2>New User ! Please Register her</h2>
+
+    <div class="container">
+
+        <form action="/SignUp" method="post">
+            <div>
+    
+                <input class="inputbox" style="background-color: #fcf3ed ;" type="text" name="Name" id="Name" placeholder="Name" required>
+            </div>
+            <div>
+                <input class="inputbox" style="background-color: #fcf3ed;" type="text" name="Email" id="Email" placeholder="Email Address*" required>
+            </div>
+            <div>
+                <input class="inputbox" style="background-color: #fcf3ed;" type="text" name="Mobile" id="Mobile" placeholder="Mobile No*" required>
+            </div>
+            <div>
+                <input class="inputbox" style="background-color: #fcf3ed;" type="text" name="Gender" id="Gender" placeholder="Gender*" required>
+            </div>
+            <div>
+                <input class="inputbox" style="background-color: #fcf3ed;" type="text" name="Date of Birth" placeholder="Date of Birth*" required>
+            </div>
+            <div>
+                <input class="inputbox" style="background-color: #fcf3ed;" type="text" name="Password" id="Password" placeholder="Password*" required>
+            </div>
+            <div>
+                <input class="inputbox" style="background-color: #fcf3ed;" type="text" name="Confirm password" id="corfim password"
+                    placeholder="Confirm password*" required>
+            </div>
+
+            <label>
+                <input type="checkbox" name="Remember" checked="checked" style="margin-bottom: 15px;" />
+                Remember me
+            </label>
+
+            <div>
+                <button type="submit" class="Registerbtn">
+                 <font face="roboto">Register</font>
+                </button>
+             </div>
+
+            
+        </form>
+
+        <h3>OR</h3>
+
+        <div class="clearfix">
+
+            <button class="Signinwithfacebookbtn">
+                Sign In with Facebook
+            </button>
+            <button class="Signinwithgooglebtn">
+                Sign in with Google
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
